@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "upcoming_events",
+  "info": {
+    "singularName": "upcoming-event",
+    "pluralName": "upcoming-events",
+    "displayName": "upcoming_event",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "depcription": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "venue": {
+      "type": "string",
+      "required": true
+    },
+    "date": {
+      "type": "datetime",
+      "required": true
+    }
+  }
+}

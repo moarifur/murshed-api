@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "past_events",
+  "info": {
+    "singularName": "past-event",
+    "pluralName": "past-events",
+    "displayName": "past_event",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}
