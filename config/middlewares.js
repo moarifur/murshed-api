@@ -1,9 +1,7 @@
 module.exports = [
   'strapi::logger',
   'strapi::errors',
-  module.exports = [
-    // ...
-    {
+  {
       name: 'strapi::security',
       config: {
         contentSecurityPolicy: {
@@ -23,8 +21,6 @@ module.exports = [
         },
       },
     },
-    // ...
-  ],
   'strapi::cors',
   'strapi::poweredBy',
   'strapi::query',
